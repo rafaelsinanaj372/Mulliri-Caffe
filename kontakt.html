@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontakt — Mulliri Caffe</title>
+<meta name="description" content="Na kontaktoni — Mulliri Caffe, Tirana, Albania. Telefon, email, WhatsApp dhe formë kontakti.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="header">
+  <div class="container nav">
+    <a href="index.html" class="logo"><img src="https://mullirivjeter.al/wp-content/uploads/2017/11/Logo-Mulliri-Large.png" alt="Mulliri Caffe" class="logo-img" onerror="this.outerHTML='<span class=&quot;cup&quot;>&#9749;</span>Mulliri <span>Caffe</span>'"></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Kreu</a></li>
+      <li><a href="menu.html">Menuja</a></li>
+      <li><a href="rreth-nesh.html">Rreth Nesh</a></li>
+      <li><a href="pse-ne.html">Pse ne?</a></li>
+      <li><a href="kontakt.html" class="active">Kontakt</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Hap menunë">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="banner">
+  <div class="container banner-content">
+    <span class="eyebrow">Kontakt</span>
+    <h1>Na Gjeni & Na Shkruani</h1>
+    <p>Jemi gjithmonë të gatshëm t'ju presim. Na kontaktoni për çdo pyetje apo rezervim.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="contact-wrap">
+      <div class="contact-info reveal">
+        <div class="info-item">
+          <div class="info-icon">📍</div>
+          <div><h4>Lokacioni</h4><p>Tirana, Albania</p></div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">📞</div>
+          <div><h4>Telefoni</h4><a href="tel:+355694826135">+355 69 482 6135</a></div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">✉️</div>
+          <div><h4>Email</h4><a href="mailto:info@mulliricaffe.com">info@mulliricaffe.com</a></div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">🕐</div>
+          <div><h4>Orari</h4><p>E Hënë - E Diel, 08:00 - 22:00</p></div>
+        </div>
+        <a href="https://wa.me/355694826135?text=P%C3%ABrsh%C3%ABndetje%20Mulliri%20Caffe!" target="_blank" rel="noopener" class="wa-btn">💬 Shkruaj në WhatsApp</a>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm">
+        <h3>Na dërgo një mesazh</h3>
+        <p class="sub">Plotëso formën dhe do të hapet aplikacioni i email-it.</p>
+        <div class="field">
+          <label for="name">Emri</label>
+          <input type="text" id="name" name="name" placeholder="Emri juaj" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="ju@example.com" required>
+        </div>
+        <div class="field">
+          <label for="message">Mesazhi</label>
+          <textarea id="message" name="message" placeholder="Shkruani mesazhin tuaj..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Dërgo Mesazhin</button>
+      </form>
+    </div>
+
+    <div class="map-wrap reveal">
+      <iframe
+        title="Harta Mulliri Caffe — Tirana"
+        src="https://www.google.com/maps?q=Tirana,Albania&output=embed"
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <a href="index.html" class="logo"><img src="https://mullirivjeter.al/wp-content/uploads/2017/11/Logo-Mulliri-Large.png" alt="Mulliri Caffe" class="logo-img" onerror="this.outerHTML='<span class=&quot;cup&quot;>&#9749;</span>Mulliri <span>Caffe</span>'"></a>
+    <p>© 2026 Mulliri Caffe. Të gjitha të drejtat e rezervuara.</p>
+    <p class="credit">Made by <a href="https://www.hapweb-in.com" target="_blank" rel="noopener">Hap Web-in</a></p>
+  </div>
+</footer>
+
+<button id="backTop" aria-label="Kthehu lart">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
